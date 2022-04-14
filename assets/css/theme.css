@@ -129,3 +129,87 @@ Updated	 :	04.02.2022
 .bg-roadmap {
     background: #412702 !important;
 }
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 0.75rem 1.25rem;
+  background-color: #412702;
+  font-size: 14px;
+}
+
+.card {
+  padding: 10px;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 0.5rem;
+}
+
+.section-head .title:before {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  content: attr(title);
+  font-family: "Poppins", sans-serif;
+  line-height: .9;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: rgba(255,255,255,0.2);
+  transform: translate(-50%, -50%);
+  opacity: 0.06;
+}
+
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+}
+.games-bg {
+  background: #412702 ;
+}
+
+.team-photo-bg:before {
+  background-image: linear-gradient(90deg, #ff9100 0%, #e68403 100%);
+}
+
+.game .game-photo {
+  width: 150px;
+  
+}
+
+.text-sm {
+  font-size: 12px;
+}
+
+.nestedlist {
+  padding-left: 20px;
+  list-style: disc;
+}
+
+.tc-light .social li a:hover .social-icon {
+  background: #ff9100;
+}
+
+.poweredBy {
+  position:absolute;
+  bottom:0;
+  left:0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  padding-right: 30px;
+}
+
+.poweredBy p {
+  font-size: 12px;
+}
+
+@media only screen and (min-width: 992px) {
+  .roadmap-card {
+    min-height: 520px;
+  }
+
+  .minHeight270 {
+    min-height: 270px;
+  }
+}
